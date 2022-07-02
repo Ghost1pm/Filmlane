@@ -183,14 +183,12 @@ text-align: center;
 margin-block: 19px;
 
 }
-  #upcoming .wraper ul{
-
-justify-content: center;
-
-}
+  #upcoming .wraper ul{text-align: center;}
   #upcoming .wraper ul li{
 
-  }
+padding: 10px 10px;
+
+}
 }
 
 
