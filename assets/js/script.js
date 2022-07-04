@@ -17,3 +17,18 @@ $('#sliderbar').owlCarousel({
         }
     }
 })
+const menu = document.getElementById('menu')
+const opecity = document.getElementById('opecity')
+function toggleshow(){
+  opecity.style.display="block"
+  menu.classList.toggle("active");
+
+}
+function togglehide(){
+  opecity.style.display="none"
+  menu.classList.remove("active");
+
+
+
+
+}
