@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-with,
+    initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Filmlane - Best movie collections</title>
+    <link rel="icon" href="favicon.svg">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsivestyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  </head>
+  <body>
+    <div id="opecity"></div>
+    <div id="menu">
+      <div class="logo"></div>
+
+      <ion-icon name="close-outline" class="close_menu" onclick="togglehide()"></ion-icon>
+      <ul>
+        <li> <a href="index.html">Home</a> </li>
+        <li> <a href="#">Movie</a> </li>
+        <li> <a href="#">Tv Show</a> </li>
+        <li> <a href="#">Web Series</a> </li>
+        <li> <a href="pricing.html">Pricing</a> </li>
+      </ul>
+      <ul class="social_icon">
+        <li> <a href="#"><ion-icon name="logo-twitter"></ion-icon></a> </li>
+        <li> <a href="#"><ion-icon name="logo-facebook"></ion-icon></a> </li>
+        <li> <a href="#"><ion-icon name="logo-pinterest"></ion-icon></a> </li>
+        <li> <a href="#"><ion-icon name="logo-instagram"></ion-icon></a> </li>
+        <li> <a href="#"><ion-icon name="logo-youtube"></ion-icon></a> </li>
+      </ul>
+      <button type="button" name="button">Sign in</button>
+    </div>
+    <div id="nav">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-2 col-xs-2">
+            <div class="logo">
+            </div>
+          </div>
+          <div class="col-sm-6 col-xs-6">
+            <ul>
+              <li> <a href="index.html">Home</a> </li>
+              <li> <a href="#">Movie</a> </li>
+              <li> <a href="#">Tv Show</a> </li>
+              <li> <a href="#">Web Series</a> </li>
+              <li> <a href="pricing.html">Pricing</a> </li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-xs-4 size">
+          <div class="right_nav">
+            <div class="container_fluid">
+              <div class="row">
+                <div class="col-xs-3 size1" style="padding:0">
+                  <div class="search_icon">
+                    <ion-icon name="search-outline"></ion-icon>
+                  </div>
+                </div>
+                <div class="col-xs-4 size2" style="padding:0">
+                  <div class="language_wrape">
+                    <ion-icon name="globe-outline"></ion-icon>
+                    <select class="" name="">
+                      <option value="">EN</option>
+                      <option value="">AU</option>
+                      <option value="">AR</option>
+                      <option value="">TU</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-xs-5 size3" style="padding:0">
+                  <button type="button" name="button">Sign in</button>
+                  <ion-icon name="reorder-two" class="menu_open" onclick="toggleshow()"></ion-icon>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+                <!-- #PRICING -->
+    <main>
+      <div id="pricing">
+        <div class="container">
+          <div class="row">
+            <h1>Pricing</h1>
+            <p>hello my name is ??</p>
+            <div class="col-sm-4 col-xs-4 price_size1">
+              <div class="price_card">
+                <span>Basic</span>
+                <h1>Free</h1>
+                <p>Free plane for all users</p>
+                <ul>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> Store up to 20 movies</li>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> Quality 480px max</li>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> only on Android</li>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> 1 id login</li>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> Lorem ipsum dolor sit amet</li>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> Lorem ipsum dolor sit amet</li>
+
+                </ul>
+                <button type="button" name="button">Get started Free</button>
+              </div>
+            </div>
+            <div class="col-sm-4 col-xs-4 price_size2">
+              <div class="price_card" style="background:#d1ec53;">
+                <span>Pro</span>
+                <h1>$15<small>/month</small></h1>
+                <p>Free plane for all users</p>
+                <ul>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> store up to 100 movie</li>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> Quality 1080px max</li>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> mac,pc,Android all device</li>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> 2 collaborators</li>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> share link password protection</li>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> Lorem ipsum dolor sit amet</li>
+
+                </ul>
+                <button type="button" name="button">Get pro</button>
+
+              </div>
+            </div>
+            <div class="col-sm-4 col-xs-4  price_size" >
+              <div class="price_card" style="background:#ffbb02;">
+                <span>Enterprice</span>
+                <h1>$25<small>/month</small></h1>
+                <p>Free plane for all users</p>
+                <ul>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> Everything in pro</li>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> store unlimited movie</li>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> Quality 4k</li>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> AD's Free</li>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> Feed back saport 24/7</li>
+                  <li><ion-icon name="checkmark-circle"></ion-icon> Downloads 50 movies</li>
+                </ul>
+                <button type="button" name="button">Get Enterprice</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+                <!-- FOOTER -->
+
+                <!-- GO TO UP -->
+
+        <div class="box">
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"referrerpolicy="no-referrer"></script>
+
+  <script src="assets/js/script.js" charset="utf-8"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  </body>
+</html>

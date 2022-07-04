@@ -165,8 +165,31 @@ padding: 10px 10px;
     right: 0;
   }
 }
+@media (max-width:768px){
+  .price_size{
+    width: 100%;
+  }
+  .price_size1{
+    width: 50%
+  }
+  .price_size2{
+    width: 50%
+  }
 
+}
 
+@media (max-width:550px){
+  .price_size{
+    width: 100%;
+  }
+  .price_size1{
+    width: 100%
+  }
+  .price_size2{
+    width: 100%
+  }
+
+}
 
 
 
