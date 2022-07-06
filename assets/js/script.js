@@ -31,4 +31,14 @@ function togglehide(){
 
 
 
-}
+};
+
+/*===========SCROLL REVEAL ANIMATION===============*/
+const sr = ScrollReveal({
+    origin:'top',
+    destance:'600px',
+    duration:2500,
+    delay:400,
+    reset:true
+  });
+sr.reveal(`#hero h1`);

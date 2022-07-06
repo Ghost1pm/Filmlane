@@ -7,6 +7,9 @@ a:hover{
   text-decoration: none;
   color: white;
 }
+body{
+  background: hsl(207, 19%, 11%);
+}
  /* navigation area */
 #nav{
   position: fixed;
@@ -16,7 +19,7 @@ a:hover{
   width: 100%;
   z-index: 2;
 }
-#nav .logo{
+#nav .logo,#footer .logo{
 
 position: relative;
 
@@ -748,9 +751,151 @@ text-align: right;
 
 }
 
+#sliderbar .owl-dots {
+  position: relative;
+  display: block;
+  width: calc(100% - 20px);
+  left: 10px;
+  border: 3px solid #e2d703;
+  border-radius: 25px;
+  height: 16px;
+}
 
+#sliderbar .owl-dots .owl-dot {
+  position: relative;
+  display: block;
+  float: left;
+  width: 25%;
+}
 
+#sliderbar .owl-dots .owl-dot span {
+  height: 6px;
+  margin: 0;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  display: block;
+  position: relative;
+  width: calc(100% - 4px);
+  background: none;
+}
+#sliderbar .owl-dots .owl-dot.active{
+  width: 75%;
 
+}
+#sliderbar .owl-dots .owl-dot.active span {
+  background: #fff;
+}
+
+/* footer */
+#footer{
+  position: relative;
+  display: block;
+  background-image: url(../images/footer-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: #fff;
+      padding-top: 60px;
+}
+#footer .footer_top{
+  padding-bottom: 20px;
+}
+#footer .footer_top ul{
+
+position: relative;
+
+display: block;
+
+text-align: right;
+
+padding: 0;
+
+margin-bottom: 0;
+}
+#footer .footer_top ul li{
+
+position: relative;
+
+display: inline-block;
+
+padding: 43px  15px;
+
+font-size: 17px;
+
+font-weight: 700;
+
+padding-bottom: 0;
+}
+#footer .top_bottom{
+  position: relative;
+  display: block;
+}
+#footer .top_bottom ul{
+
+text-align: left;
+}
+#footer .top_bottom ul li{
+
+font-size: 16px;
+
+font-weight: normal;
+
+padding: 20px 14px;
+}
+#footer .top_bottom .social{
+
+text-align: right;
+
+padding-top: 12px;
+}
+#footer .top_bottom .social li{
+
+font-size: 20px;
+
+background: #11141d;
+color: #bdbdbd;
+height: 40px;
+
+border-radius: 30px;
+
+width: 40px;
+
+padding-top: 10px;
+
+padding-left: 10px;
+
+margin-inline: 12px;
+}
+.divider {
+    height: 4px;
+    margin-block: 25px;
+    border-top: 1px solid hsl(225, 25%, 9%);
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+}
+#footer_bottom{
+
+position: relative;
+
+display: block;
+
+padding: 26px 28px;
+}
+#footer_bottom p{
+
+color: #fff;
+
+text-align: left;
+
+font-size: 15px;
+
+margin-top: 7px;
+}
+#footer_bottom .img{
+
+text-align: right;
+}
 
 
 
