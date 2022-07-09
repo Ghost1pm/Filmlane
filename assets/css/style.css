@@ -845,7 +845,7 @@ font-weight: 500;
   width: 75%;
   height: 521px;
   position: relative;
-  display: inline-block;
+  display: block;
 }
 #service small{
 
