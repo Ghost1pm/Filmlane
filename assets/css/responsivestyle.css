@@ -99,6 +99,17 @@ font-size: 22px;
   padding-block: 8px;
   }
 }
+@media (max-width:650px) {
+  #cta{
+
+  }
+
+#cta .input_section button {
+    position: relative;
+    margin-inline: auto;
+    margin-top: 25px;
+}
+}
 @media (max-width:992px) {
   #nav ul li{
 
@@ -106,6 +117,15 @@ padding: 21px 13px;
 
 font-size: 16px;
 }
+#cta .col-xs-6{
+  width: 100%;
+}
+#cta{
+
+text-align: center;
+}
+
+#cta .input_section input {max-width: 530px;}
 }
 
 @media (max-width:992px) {
@@ -258,6 +278,98 @@ padding: 10px 10px;
     width: 50%;
   }
 }
+@media screen and (min-width:992px) and (max-width:1200px){
+  .servicesize1,.servicesize2{
+    width: 50%;
+  }
+  #service .banner .img{
+    width: 100%;
+  }
+  #service .banner button{
+
+right: 120px;
+
+bottom: 20px;
+  }
+}
+@media (max-width:992px){
+  .servicesize1,.servicesize2{
+    width: 100%;
+  }
+  #service small {
+    margin-top: 50px;
+}
+}
+@media (max-width:768px){
+  #service .banner .img{
+    width: 100%;
+  }
+  #service .banner button{
+
+right: 120px;
+
+bottom: 20px;
+  }
+}
+@media (max-width:500px){
+  .servicesize3{
+    width: 100%;
+  }
+#service{
+  padding: 20px;
+  padding-block: 100px;
+}
+#service .banner button{
+
+position: relative;
+
+transform: rotate(0deg);
+margin-top: 20px;
+right: 0;
+
+bottom: 0;
+
+padding: 25px 45px;
+
+padding-right: 57px;
+}
+
+#service .banner .img {
+    background-position: bottom;
+}
+#service .item .icon{
+
+margin: 0px;
+}
+}
+
+@media (max-width:450px){
+  #service .banner .img {height: 410px;}
+
+#service h1 {
+    font-size: 25px;
+}
+
+}
+@media (max-width:400px){
+  #service .banner .img {height: 340px;}
+
+}
+@media (max-width:350px){
+  #service .banner .img {height: 300px;}
+
+}
+@media (max-width:300px){
+  #service .banner .img {height: 250px;}
+
+}
+
+
+
+
+
+
+
 
 
 
