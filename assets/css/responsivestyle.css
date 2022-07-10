@@ -363,6 +363,48 @@ margin: 0px;
   #service .banner .img {height: 250px;}
 
 }
+@media screen and (min-width:992px) and (max-width:1200px){
+  .top_rated_size,.tv_series_size{
+  width: 33.33%;
+  }
+  .top_rated_size4,.top_rated_size5,.top_rated_size3{
+    display: none;
+  }
+  .border_add {
+    display: block;
+  }
+}
+@media screen and (min-width:550px) and (max-width:992px){
+  .top_rated_size,.tv_series_size{
+  width: 50%;
+  }
+  .top_rated_size1,.top_rated_size4,.top_rated_size1,.top_rated_size2,.top_rated_size5,.top_rated_size3{
+    display: none;
+  }
+  .border_add {
+    display: block;
+  }
+}
+
+
+@media (max-width:550px){
+  .top_rated_size,.tv_series_size{
+  width: 100%;
+  }
+  #upcoming .cards .img,#top_rated .cards .img,#tv_series .cards .img{
+    height: 750px;
+  }
+  .top_rated_size4,.top_rated_size1,.top_rated_size2,.top_rated_size5,.top_rated_size3{
+    display: none;
+  }
+  .border_add {
+    display: block;
+    height: 150px;
+  }
+  .border_add ion-icon {
+    height: 150px;
+  }
+}
 
 
 
