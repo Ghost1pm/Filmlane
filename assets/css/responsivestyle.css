@@ -391,9 +391,7 @@ margin: 0px;
   .top_rated_size,.tv_series_size{
   width: 100%;
   }
-  #upcoming .cards .img,#top_rated .cards .img,#tv_series .cards .img{
-    height: 500px;
-  }
+ 
   .top_rated_size4,.top_rated_size1,.top_rated_size2,.top_rated_size5,.top_rated_size3{
     display: none;
   }
