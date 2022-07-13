@@ -591,11 +591,10 @@ width: 110px;
 
 font-weight: 700;
 }
-#upcoming .cards{
+#upcoming .cards,#service .cards,#top_rated .cards,#tv_series .cards{
   position: relative;
   display: block;
   margin-top: 30px;
-  margin-inline: 7px;
 }
 #pricing{
   position: relative;
@@ -618,15 +617,16 @@ font-weight: 700;
 }
 #pricing .price_card{
   position: relative;
-  display: inline-block;
+  display: block;
   text-align: left;
   background: #f0b2d7;
   color: #000;
-  width: 230px;
+  width: 300px;
   border-radius: 16px;
   padding: 18px;
   margin-block: 20px;
   transition: 1s;
+  margin-inline: auto;
   }
   #pricing .price_card:hover{
     transition: 1s;
@@ -634,8 +634,9 @@ font-weight: 700;
   }
 #pricing .price_card h1{
   font-size: 45px;
-  margin: 0;
   color: #000;
+  margin: 0;
+  margin-bottom: 10px;
 }
 #pricing .price_card h1 small{
 
@@ -644,11 +645,13 @@ color: #000;
 font-size: 16px;
 }
 #pricing .price_card span
-{position: relative;
+{
+  position: relative;
   display: block;
   font-size: 16px;
   font-weight: 700;
   color: #383535;
+  padding-bottom: 10px;
 }
 #pricing .price_card ul
 {position: relative;
@@ -658,19 +661,21 @@ font-size: 16px;
 #pricing .price_card ul li{
   position: relative;
   display: block;
-  font-size: 13px;
+  font-size: 17px;
   padding-block: 4px;
 }
 #pricing .price_card button{
+  width: 175px;
   position: relative;
   display: block;
   font-size: 15px;
-  width: 100%;
   background: #000;
   color: #fff;
   border-radius: 10px 30px 10px 30px;
   transition: 0.30s;
-  padding: 4px 0;
+  padding: 8px 30px;
+  border: none;
+  margin-block-start: 18px;
 }
 
 #pricing .price_card button:hover{
@@ -909,7 +914,6 @@ margin: auto;
 
 border-radius: 50px;
 
-margin-top: 12px;
 }
 #service .item .icon ion-icon{
 

@@ -15,15 +15,20 @@ font-size: 24px;
 }
 
 @media (max-width:976px){
-#nav .right_nav .menu_open{display: block;margin-left: 12px;}
-#nav ul{
-display: none;
-}
-#nav .right_nav button{
-display: none;
-}
-#nav .right_nav{position: relative;right: 30px;}
+  #nav .right_nav .menu_open{display: block;margin-left: 12px;}
+  #nav ul{
+    display: none;
+  }
+  #nav .right_nav button{
+    display: none;
+  }
+  #nav .right_nav{position: relative;right: 30px;}
 
+  #menu button{
+    width: 90%;
+    margin-inline: 5%;
+    margin-bottom: 12px;
+  }
 }
 
 @media screen and (min-width: 550px) and (max-width:768px){
@@ -120,6 +125,9 @@ font-size: 16px;
 #cta .col-xs-6{
   width: 100%;
 }
+hr{
+  display: none;
+}
 #cta{
 
 text-align: center;
@@ -185,7 +193,7 @@ padding: 10px 10px;
     right: 0;
   }
 }
-@media (max-width:768px){
+@media (max-width:992px){
   .price_size{
     width: 100%;
   }
@@ -196,9 +204,14 @@ padding: 10px 10px;
     width: 50%
   }
 
-}
 
-@media (max-width:550px){
+}
+@media (max-width:350px){
+  #pricing .price_card{
+    width: 100%
+  }
+}
+@media (max-width:768px){
   .price_size{
     width: 100%;
   }
@@ -300,13 +313,13 @@ bottom: 20px;
     margin-top: 50px;
 }
 }
-@media (max-width:768px){
+@media (max-width:767px){
   #service .banner .img{
     width: 100%;
   }
   #service .banner button{
 
-right: 120px;
+right: 137px;
 
 bottom: 20px;
   }
@@ -391,9 +404,7 @@ margin: 0px;
   .top_rated_size,.tv_series_size{
   width: 100%;
   }
-  #upcoming .cards .img,#top_rated .cards .img,#tv_series .cards .img{
-    height: 500px;
-  }
+
   .top_rated_size4,.top_rated_size1,.top_rated_size2,.top_rated_size5,.top_rated_size3{
     display: none;
   }
@@ -404,10 +415,16 @@ margin: 0px;
   .border_add ion-icon {
     height: 150px;
   }
+  #upcoming .cards, #service .cards, #top_rated .cards,#tv_series .cards{
+    margin-inline: 70px;
+  }
 }
 
-
-
+@media (max-width:450px){
+  #upcoming .cards, #service .cards, #top_rated .cards,#tv_series .cards{
+    margin-inline: 35px;
+  }
+}
 
 
 
