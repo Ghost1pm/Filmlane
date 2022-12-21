@@ -12,6 +12,7 @@ width: 93px;
 #nav .right_nav ion-icon{
 font-size: 24px;
 }
+
 }
 
 @media (max-width:976px){
@@ -299,11 +300,9 @@ padding: 10px 10px;
     width: 100%;
   }
   #service .banner button{
-
-right: 120px;
-
-bottom: 20px;
-  }
+right: 150px;
+bottom: 20px;
+}
 }
 @media (max-width:992px){
   .servicesize1,.servicesize2{
@@ -404,11 +403,7 @@ margin: 0px;
   .top_rated_size,.tv_series_size{
   width: 100%;
   }
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 56edbcb2f15ce91a623558327712e48d1779472f
   .top_rated_size4,.top_rated_size1,.top_rated_size2,.top_rated_size5,.top_rated_size3{
     display: none;
   }

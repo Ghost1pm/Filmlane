@@ -21,7 +21,7 @@ const menu = document.getElementById('menu')
 const opecity = document.getElementById('opecity')
 function toggleshow(){
   opecity.style.display="block"
-  menu.classList.toggle("active");
+  menu.classList.add("active");
 
 }
 function togglehide(){
